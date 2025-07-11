@@ -5,3 +5,15 @@ img.profile-pic{
     width:350px;
     height:300px;
 }
+
+.link-list a{
+    
+    text-decoration: none;
+    
+}
+
+.link-list a:hover{
+    text-decoration: underline;
+}
+
+
