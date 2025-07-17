@@ -1,28 +1,10 @@
-img.profile-pic{
-    position: absolute; 
-    top:20px;
-    right:20px;
-    width:350px;
-    height:300px;
-}
-
-.link-list a{
-    
-    text-decoration: none;
-    
-}
-
-.link-list a:hover{
-    text-decoration: underline;
-}
-
 
 body {
-    background-image: url('../data/images/hosaholalu_lakshminarayana.jpeg');
+    background-image: url('../../data/images/hosaholalu_garudagamana.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: white;
+    color: white; 
     font-family: sans-serif;
 }
 
@@ -44,5 +26,13 @@ html, body {
     height: 100vh; /* Forces full viewport height */
     width: 100vw; /* Ensures full horizontal coverage */
     overflow-x: hidden;
-    color: black;
+    color: white;
+}
+
+.literature-list a {
+    text-decoration: none;
+}
+
+.literature-list a:hover {
+    text-decoration: underline;
 }
